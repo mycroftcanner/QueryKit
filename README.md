@@ -85,7 +85,7 @@ Using slicing, a QuerySet's results may be limited to a specified range. For
 example, to get the first 5 items in our QuerySet:
 
 ```swift
-queryset[0...5]
+queryset[0..<5]
 ```
 
 **NOTE**: *Remember, QuerySets are lazily evaluated. Slicing doesn’t evaluate the query.*
